@@ -19,7 +19,7 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.AUTO) //
     private Long id;
     private String nome;
-    @ManyToOne
+    @ManyToOne //
     private Endereco endereco;
 
     public Long getId() {

@@ -24,16 +24,12 @@ public interface ServicoCliente {
     */
     
     void inserir(Cliente cliente);
-
     /*
     This method updates an existing customer record with the ID
     and client object that was provided.
      */    
     void atualizar(Long id, Cliente cliente);
-
-    /*
-    It deletes a customer from the database based on the ID it takes as a parameter.
-     */
+    
     void deletar(Long id);
 
 }
